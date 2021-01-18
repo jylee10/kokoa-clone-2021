@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 130px 0 100px 0;
+  margin: 120px 0 90px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 
 #login-form input {
   padding: 13px 10px;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 10px;
   box-shadow: 3px 3px 3px lavender;
@@ -49,14 +49,14 @@
 }
 
 #login-form input[type="submit"] {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   background-color: var(--salmon);
   border-radius: 5px;
   cursor: pointer;
 }
 
 #login-form :nth-child(2) {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 #login-form a {
