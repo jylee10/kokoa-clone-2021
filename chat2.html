@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat /Lily - Newbie's Kokoa Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:24</span>
+      </div>
+      <div class="status-bar__column">
+        <span>79%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+        <ul class="settings-list"></ul>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Lily</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">Sunday, December 19, 2021</div>
+      <div class="message-row">
+        <img src="images/cat03.jpg" />
+        <div class="message-row__content">
+          <div class="message__author">Lily</div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >It's coming down on me Water like misery</span
+            >
+            <span class="message__bubble">I'm ready rain on me</span>
+            <span class="message__time">11:01 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >I'd rather be dry But at least I'm alive</span
+            >
+            <span class="message__bubble">Rain on me rain rain</span>
+            <span class="message__time">11:03 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="images/cat03.jpg" />
+        <div class="message-row__content">
+          <div class="message__author">Lily</div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Livin' in a world where no one's innocent</span
+            >
+            <span class="message__bubble"
+              >Oh, but at least we try Gotta live my truth</span
+            >
+            <span class="message__bubble"
+              >not keep it bottled in So I don't lose my mind</span
+            >
+            <span class="message__time">11:07 PM</span>
+            <span class="message__not-read">1</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <p>Your screen is too big. 😭<br />Please adjust the screen size. 🙏</p>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.more-screen .icon-row {
+  margin-top: 15px;
+  display: flex;
+}
+
+.more-screen .icon-row__icon:hover i {
+  color: palevioletred;
+  font-weight: 800;
+}
+
+.more-suggestions {
+  margin-top: 10px;
+  padding-top: 25px;
+  border-top: var(--main-border);
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icon-image img {
+  width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  margin-bottom: 5px;
+}
+
+.more-suggestions__icon-text {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon:not(:last-child) {
+  margin-right: 10px;
+}

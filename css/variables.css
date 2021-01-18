@@ -1,0 +1,11 @@
+:root {
+  --coral: rgb(255, 127, 80);
+  --salmon: rgb(255, 169, 160);
+  --babypink: rgb(255, 248, 240);
+  --pink: rgba(252, 217, 213, 0.85);
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --sub-border: 1px solid rgba(0, 0, 0, 0.4);
+  --fix-border: 1px solid rgb(255, 219, 210);
+  --sub-title: rgba(0, 0, 0, 0.4);
+}
